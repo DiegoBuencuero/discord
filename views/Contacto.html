@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylsheets/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="header" class="header"> 
+    
+            <script>
+                function load_templates() {
+                document.getElementById("header").innerHTML =
+                    "<object data='index.html'>";          
+                }
+                load_templates();
+            </script>
+        </div>
+       
+        <div class = "formulario">
+            <h5>Formulario de Contacto</h5>
+            <form action="#">
+                
+                <input type="text", class="campo", name="nombre", placeholder="Nombre">
+                <input type="text", class="campo", name="apellido", placeholder="Apellido">
+                <input type="text", class="campo", name="telefono", placeholder="Telefono">
+                <input type="text", class="campo", name="email", placeholder="E-mail">
+                <input type="text", class="campo", name="comentarios", placeholder="Cpmentarios">
+               
+            <button class="boton">Enviar</button>
+            <button class="boton">Cancelar</button>
+            
+            </form>
+        </div>
+   
+</div>
+
+</body>
+</html>

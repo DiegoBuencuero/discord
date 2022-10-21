@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    background-color: aqua;
+    padding: 20px;
+    display: block;
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+}
+.menu, .submenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background: #289e59;
+    width: 100%;
+}
+.menu_link{
+    display: block;
+    padding: 20px;
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.submenu .menu_item{
+    background:#333 ;
+    padding-left: 50px;
+}

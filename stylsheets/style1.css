@@ -1,0 +1,126 @@
+/* Reset do navegador */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  
+}
+.contgral{
+    position: absolute;
+}
+
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #2db44a;
+    padding: 6px 14px;
+    transition: all 0.5s ease;
+}
+
+
+.sidebar ul {
+    margin-top: 15px;
+}
+
+.sidebar ul li {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    line-height: 50px;
+    margin: 0 5px;
+    list-style: none;
+}
+
+.sidebar ul li input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background-color: #dfe9e3;
+    padding-left: 60px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.sidebar ul li .search {
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.sidebar ul li .search:hover {
+    background-color: #fff;
+    color: #1d1d31;
+}
+
+.sidebar ul li .menu_a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.1s ease;
+    position: absolute;
+    width: 205px;
+   
+}
+.sidebar ul li a span {
+   
+    padding-left: 20px;
+   
+}
+
+
+.sidebar ul li .menu_a:hover {
+    color: #11101d;
+    background-color: #fff;
+ 
+}
+
+.sidebar ul li .search {
+    min-width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.iso{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+ 
+    
+}
+.clogo{
+    
+    margin-left: 18%;
+    height: 75px;
+    background-color: #c9d3db;
+    text-align: center;
+}
+nav{
+    margin-top: 0%;
+}

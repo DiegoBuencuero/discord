@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+}
+.header{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    height: 800px;
+}
+.formulario {
+width:40%;
+margin-top: 50px;
+align-items: center;
+flex-direction: column;
+padding-left: 20%;
+
+
+}
+.campo{
+font-size: 13px;
+width: 90%;
+padding:7px;
+margin: 5px;
+border: 1px solid gray;
+border-radius: 8px;
+outline: none;
+
+}
+.boton{
+padding: 7px;
+font-size: 15px;
+background-color: #289e59;
+border-radius: 6px;
+color: white;
+border: none;
+width: 90px;
+margin-top: 15px;
+margin-left: 20px;
+align-items: center;
+}
+
+
+h5{
+font-size: 22px;
+color: #313335;
+margin-top: 15px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+.boton:hover{
+background: rgb(79, 82, 82);
+}
+.maps{
+background-color: #289e59;
+border-radius: 30px;
+color: #289e59;
+margin-left: 5%;
+width: 55%;
+margin-top: 50px;
+margin-left: 15px;
+}
